@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: grey;
+}
+
+header {
+  width: 98%;
+  margin: 0 15;
+  background-color: #555;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+ul, .nav-link {
+  display: flex;
+  margin: auto;
+  font-size: 2.4rem;
+  align-items: center;
+  gap: 70px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+.form {
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+#email {
+  text-align: center;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 36.5%;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  margin-left: 13.5%;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  width: 100%;
+  margin-top: 1
+}
+h3 {
+  font-size: 1.4rem;
+  margin: 10px;
+
+}
+.shoes-1 {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.shoes-2 {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.shoes-3 {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+ text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.button {
+  margin-top: 10px;
+  background-color: grey;
+}
+
+.shoes-preview {
+  margin-top: 20px;
+  margin-left: 27%;
+}
+
+.shipment {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+#footer {
+   background-color: #555;
+   width: 100%;
+   margin-top: 20px;
+}
+
+.terms-and-services {
+   display: flex;
+   justify-content: right;
+   padding: 20px;
+   gap: 40px;
+}
+
+@media () {
+
+}
